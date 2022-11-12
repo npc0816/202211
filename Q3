@@ -1,0 +1,5 @@
+SELECT article_id FROM category_article_mapping;
+SELECT owner_id as owner_id FROM article;
+SELECT owner_name as owner_name FROM owner;
+
+SELECT SUM('category_id) as sum FROM category_article_mapping;
