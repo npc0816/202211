@@ -1,0 +1,16 @@
+Read data from input file
+allValid = true
+errorCodes = []
+for each record in input file:
+    N = input() #ID
+    allValid = record.isValid
+    if record.isValid is true:
+        print "true"
+    if record.isValid is not true:
+        errorCodes append error message
+
+if allValid is true:
+    print "Yes"
+else:
+    print "No"
+    print errorCodes sepearated by space character
